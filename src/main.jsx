@@ -3,7 +3,6 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Home from './home'
-import Contact from './contact'
 import { ClerkProvider, SignedIn, SignedOut, SignIn  } from '@clerk/clerk-react'
 import { dark } from '@clerk/themes' 
 import AddListing from './add-listing'
@@ -17,7 +16,6 @@ import Profile from './profile/index';
 
 const router = createBrowserRouter([
   { path: '/', element: <Home /> },
-  { path: '/contact', element: <Contact /> },
   { path: '/profile', element: <Profile /> },
   { path: '/add-listing', element: <AddListing /> },
   { path: '/search', element: <SearchByOptions /> },
