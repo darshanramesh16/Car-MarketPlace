@@ -1,6 +1,6 @@
 import Service from '@/Shared/Service'
-import { db } from './../../configs'
-import { CarImages, CarListing } from './../../configs/schema'
+import { db } from './../../configs/index.jsx'
+import { CarImages, CarListing } from './../../configs/Schema.js'
 import { eq , and , sql } from 'drizzle-orm'
 import React, { useEffect, useState } from 'react'
 import { useSearchParams } from 'react-router-dom'
