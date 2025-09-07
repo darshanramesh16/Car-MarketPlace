@@ -1,12 +1,39 @@
-# React + Vite
+# 🚗 GearUp - Full Stack Car Marketplace
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+GearUp is a **Full Stack Car Marketplace Application** built with **React.js**, **Tailwind CSS**, **Drizzle ORM**, **Clerk**, and **Sendbird**.  
+It allows users to browse, search, list, and manage car listings, as well as engage in **real-time chat** with potential buyers or sellers.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+##  Features
+-  **User Authentication** with Clerk
+-  **Browse & Search Cars** by category, keyword, or filters
+-  **Add & Edit Listings** with images
+-  **Real-Time Chat** with Sendbird
+-  Fully responsive and mobile-friendly
+
+
+---
+
+## 🛠 Tech Stack
+**Frontend:**
+- React.js
+- Tailwind CSS,shadcn UI components
+- React Router DOM
+
+**Backend & Database:**
+- Drizzle ORM
+- PostgreSQL
+
+**Authentication & Messaging:**
+- Clerk (Authentication)
+- Sendbird (Chat)
+
+**Deployment:**
+- Vercel 
+
+---
+
+
